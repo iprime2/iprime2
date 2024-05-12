@@ -1,4 +1,4 @@
-<h3 align="center">FULL STACK DEVELOPER</h3>
+<h2 align="left">Hi 👋! My name is Sushil Kumar Gupta and I'm a FULL STACK DEVELOPER.</h2>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=iprime2&label=Profile%20views&color=0e75b6&style=flat" alt="iprime2" /> </p>
 
@@ -22,3 +22,11 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=iprime2&show_icons=true&locale=en" alt="iprime2" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=iprime2&" alt="iprime2" /></p>
+
+###
+
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
+
+###
