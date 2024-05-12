@@ -2,9 +2,7 @@
 
 ###
 
-## About Me:
 <p>Hello</p>
-
 
 ## Connect with me:
 
