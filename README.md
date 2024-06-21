@@ -1,8 +1,8 @@
-<h2 align="center">Hi 👋! My name is Sushil Kumar Gupta</h2>
+<h2 align="center">Hi 👋! I'm Sushil Kumar Gupta</h2>
 <h2 align="center">FULL STACK DEVELOPER</h2>
 ###
 
-<p>Hello</p>
+<p>Aspiring full-stack developer with hands-on experience in developing and deploying robust APIs using modern frameworks. Proficient in the MERN stack, Backend technologies, and DevOps, with a proven track record of delivering successful projects. Seeking opportunities to leverage skills in full-stack development and enhance business processes.</p>
 
 ## Connect with me:
 
