@@ -1,5 +1,5 @@
-<h2 align="left">Hi 👋! My name is Sushil Kumar Gupta and I'm a FULL STACK DEVELOPER.</h2>
-
+<h2 align="center">Hi 👋! My name is Sushil Kumar Gupta</h2>
+<h2 align="center">FULL STACK DEVELOPER</h2>
 ###
 
 <p>Hello</p>
