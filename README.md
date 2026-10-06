@@ -11,9 +11,19 @@
   <a href="https://github.com/iprime2"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
+<table align="center">
+  <tr>
+    <td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/portrait-dark.svg"><img src="assets/portrait-light.svg" width="370" alt="ASCII portrait of Sushil Kumar Gupta"></picture></td>
+    <td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-dark.svg"><img src="assets/card-light.svg" width="440" alt="Sushil Kumar Gupta: Backend and AI Systems Engineer at GoQuant, Pune, India"></picture></td>
+  </tr>
+</table>
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg"><img src="assets/heatmap-light.svg" width="860" alt="Contribution heatmap for the last year"></picture></p>
+<p align="center"><sub>Portrait, card and heatmap are SVGs in this repo; the heatmap and card refresh daily via GitHub Actions.</sub></p>
+
 ---
 
-## 🚀 About Me
+## `$ whoami` About Me
 
 I'm a **Backend & AI Systems Engineer** with ~2 years of experience building production-grade intelligent systems. Currently working at **GoQuant (Remote, Miami, USA)** on:
 
@@ -26,7 +36,7 @@ Previously at **Codeinbound LLP** as a Full Stack Developer, building enterprise
 
 ---
 
-## 🛠️ Tech Stack
+## `$ ls ~/stack` Tech Stack
 
 ### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -72,7 +82,7 @@ Previously at **Codeinbound LLP** as a Full Stack Developer, building enterprise
 
 ---
 
-## 💼 Professional Experience
+## `$ cat experience.log` Professional Experience
 
 ### 🏢 GoQuant — Software Engineer *(July 2025 – Present)*
 *Remote | Miami, USA | High-Frequency Trading Tech*
@@ -93,7 +103,7 @@ Previously at **Codeinbound LLP** as a Full Stack Developer, building enterprise
 
 ---
 
-## 🧪 Featured Projects
+## `$ ls ~/projects` Featured Projects
 
 ### 🤖 Autonomous AI Workflow Orchestrator
 > LangGraph-based agent automation engine that decomposes high-level tasks into multi-step workflows with dynamic tool execution, memory, and guardrails
@@ -123,14 +133,14 @@ Previously at **Codeinbound LLP** as a Full Stack Developer, building enterprise
 
 ---
 
-## 🎓 Education
+## `$ cat education.txt` Education
 
 **M.Sc. Computer Science** — MIT World Peace University, Pune *(2023–2025)*
 CGPA: 7.5
 
 ---
 
-## 🏅 Certifications
+## `$ cat certifications.csv` Certifications
 
 | Certification | Issuer | Year |
 |---|---|---|
@@ -142,24 +152,18 @@ CGPA: 7.5
 
 ---
 
-## 📊 GitHub Stats
+## `$ git log --graph` Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=iprime2&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iprime2&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=iprime2&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=iprime2&theme=tokyo-night&hide_border=true&area=true" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iprime2/iprime2/output/snake-dark.svg">
+    <img src="https://raw.githubusercontent.com/iprime2/iprime2/output/snake.svg" alt="Snake eating the contribution graph">
+  </picture>
 </p>
 
 ---
 
-## 🏆 Achievements
+## `$ cat achievements.md` Achievements
 
 - 🥇 **Certificate of Achievement** — Codeinbound LLP (2024) — Led 20% increase in project efficiency
 - 🚀 **Smart India Hackathon** — Advanced to next round with blockchain-based land document digitization platform (MIT-WPU, 2023)
@@ -167,7 +171,5 @@ CGPA: 7.5
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=iprime2&color=6c63ff&style=flat-square" />
-  <br/>
   <i>Open to AI/ML Engineer, Backend Engineer, and Full Stack Developer roles in India or globally remote</i>
 </p>

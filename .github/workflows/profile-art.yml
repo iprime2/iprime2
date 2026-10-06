@@ -1,0 +1,31 @@
+name: Update profile art
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # daily, 11:47 IST
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [scripts/**, .github/workflows/profile-art.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      # Standard library only: no installs, nothing to break.
+      - run: python3 scripts/fetch_contributions.py
+      - run: python3 scripts/render_heatmap_svg.py
+      - run: python3 scripts/make_info_card.py
+      - name: Commit if anything changed
+        run: |
+          git add data/contributions.json assets/heatmap-*.svg assets/card-*.svg
+          if git diff --cached --quiet; then echo "no change"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh contribution heatmap [skip ci]"
+          git push
