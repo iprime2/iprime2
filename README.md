@@ -171,7 +171,5 @@ CGPA: 7.5
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=iprime2&color=6c63ff&style=flat-square" />
-  <br/>
   <i>Open to AI/ML Engineer, Backend Engineer, and Full Stack Developer roles in India or globally remote</i>
 </p>
