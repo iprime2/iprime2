@@ -21,9 +21,10 @@ jobs:
       - run: python3 scripts/fetch_contributions.py
       - run: python3 scripts/render_heatmap_svg.py
       - run: python3 scripts/make_info_card.py
+      - run: python3 scripts/render_skyline_svg.py
       - name: Commit if anything changed
         run: |
-          git add data/contributions.json assets/heatmap-*.svg assets/card-*.svg
+          git add data/contributions.json assets/*.svg
           if git diff --cached --quiet; then echo "no change"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
