@@ -161,6 +161,13 @@ CGPA: 7.5
   </picture>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/glyphs-dark.svg">
+    <img src="assets/glyphs-light.svg" width="860" alt="The last year of contributions drawn as text, one character per day: . : + # @ from fewest to most">
+  </picture>
+</p>
+
 ---
 
 ## `$ cat achievements.md` Achievements
