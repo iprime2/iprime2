@@ -19,6 +19,7 @@ jobs:
       - uses: actions/checkout@v4
       # Standard library only: no installs, nothing to break.
       - run: python3 scripts/fetch_contributions.py
+      - run: python3 scripts/render_glyph_svg.py
       - run: python3 scripts/render_heatmap_svg.py
       - run: python3 scripts/make_info_card.py
       - run: python3 scripts/render_skyline_svg.py
