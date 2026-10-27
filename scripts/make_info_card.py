@@ -15,7 +15,7 @@ FACTS = [
     ("Role", "Software Engineer"),
     ("Now", "GoQuant, trading platform (remote)"),
     ("Before", "Full Stack Developer @ Codeinbound LLP"),
-    ("Location", "Pune, India"),
+    ("Location", "Birgunj, Parsa, Nepal"),
     ("Focus", "Venue APIs, order flow, telemetry"),
     ("", "MCP servers and agent tooling"),
     ("Languages", "Python, Rust, C++, SQL, TypeScript"),
@@ -23,6 +23,7 @@ FACTS = [
     ("Infra", "Docker, CI/CD, Prometheus, Grafana"),
     ("Education", "M.Sc. Computer Science, MIT-WPU"),
     ("Open to", "AI/ML, Backend, Full Stack roles"),
+    ("", "Globally and remotely"),
 ]
 WIDTH, HEIGHT, LINE_H = 469, 412, 21
 THEMES = {

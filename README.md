@@ -1,20 +1,20 @@
 <h1 align="center">Hi there, I'm Sushil Kumar Gupta 👋</h1>
 
 <p align="center">
-  <b>Software Engineer</b> · Pune, India<br/>
+  <b>Software Engineer</b> · Birgunj, Parsa, Nepal<br/>
   Building trading-platform services, venue integrations, and operations tooling, plus AI agent infrastructure
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/sushil-gupta-194488b8"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:kalwarsushil3@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:kalwarsushil2@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://github.com/iprime2"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
 <table align="center">
   <tr>
     <td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/portrait-dark.svg"><img src="assets/portrait-light.svg" width="370" alt="ASCII portrait of Sushil Kumar Gupta"></picture></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-dark.svg"><img src="assets/card-light.svg" width="440" alt="Sushil Kumar Gupta: Backend and AI Systems Engineer at GoQuant, Pune, India"></picture></td>
+    <td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-dark.svg"><img src="assets/card-light.svg" width="440" alt="Sushil Kumar Gupta: Software Engineer at GoQuant, Birgunj, Parsa, Nepal"></picture></td>
   </tr>
 </table>
 
@@ -62,6 +62,9 @@ Previously at **Codeinbound LLP** as a Full Stack Developer, building enterprise
 ![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
 ![sentence--transformers](https://img.shields.io/badge/sentence--transformers-4B0082?style=flat-square&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white)
+![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white)
 
 ### Web & Backend
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
@@ -69,6 +72,10 @@ Previously at **Codeinbound LLP** as a Full Stack Developer, building enterprise
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![REST](https://img.shields.io/badge/REST-009688?style=flat-square&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socketdotio&logoColor=white)
+![Cap'n Proto](https://img.shields.io/badge/Cap'n_Proto-4B6EAF?style=flat-square&logoColor=white)
+![Puppeteer](https://img.shields.io/badge/Puppeteer-40B5A4?style=flat-square&logo=puppeteer&logoColor=white)
 
 ### Databases
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
@@ -76,6 +83,7 @@ Previously at **Codeinbound LLP** as a Full Stack Developer, building enterprise
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 ### Cloud & DevOps
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
@@ -84,6 +92,12 @@ Previously at **Codeinbound LLP** as a Full Stack Developer, building enterprise
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Loki](https://img.shields.io/badge/Loki-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Promtail](https://img.shields.io/badge/Promtail-F46800?style=flat-square&logo=grafana&logoColor=white)
+![SNMP](https://img.shields.io/badge/SNMP-4B6EAF?style=flat-square&logoColor=white)
 
 ---
 
@@ -157,12 +171,12 @@ Previously at **Codeinbound LLP** as a Full Stack Developer, building enterprise
 <details>
 <summary>Earlier projects</summary>
 
-### 💬 AI Chat Agent
+### 💬 [AI Chat Agent](https://github.com/iprime2/ai-agent)
 > Real-time AI chat app with prompt caching, tool orchestration, streaming responses. Reduced token costs by **30%** and improved response time by **40%**.
 
 **Stack:** Next.js · TypeScript · LangChain · LangGraph · GPT-4o-mini · Clerk · Convex
 
-### 🚀 AI-SaaS Platform
+### 🚀 [AI-SaaS Platform](https://github.com/iprime2/AI-SAAS)
 > Multi-modal AI platform leveraging OpenAI + Replicate APIs for automated content generation. Boosted user productivity by **50%**, reducing manual workload by **30 hrs/week**.
 
 **Stack:** Next.js · TypeScript · OpenAI · Replicate · Prisma · MySQL
@@ -216,5 +230,5 @@ CGPA: 8.5
 ---
 
 <p align="center">
-  <i>Open to AI/ML Engineer, Backend Engineer, and Full Stack Developer roles in India or globally remote</i>
+  <i>Open to AI/ML Engineer, Backend Engineer, and Full Stack Developer roles, globally and remotely</i>
 </p>
