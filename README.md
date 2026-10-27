@@ -19,6 +19,7 @@
 </table>
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg"><img src="assets/heatmap-light.svg" width="860" alt="Contribution heatmap for the last year"></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/skyline-dark.svg"><img src="assets/skyline-light.svg" width="860" alt="Skyline of the last year's contributions: each day is a building as tall as its commits"></picture></p>
 <p align="center"><sub>Portrait, card and heatmap are SVGs in this repo; the heatmap and card refresh daily via GitHub Actions.</sub></p>
 
 ---
