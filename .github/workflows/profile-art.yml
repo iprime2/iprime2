@@ -20,7 +20,6 @@ jobs:
       # Standard library only: no installs, nothing to break.
       - run: python3 scripts/fetch_contributions.py
       - run: python3 scripts/render_glyph_svg.py
-      - run: python3 scripts/render_heatmap_svg.py
       - run: python3 scripts/make_info_card.py
       - run: python3 scripts/render_skyline_svg.py
       - name: Commit if anything changed
@@ -29,5 +28,5 @@ jobs:
           if git diff --cached --quiet; then echo "no change"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore: refresh contribution heatmap [skip ci]"
+          git commit -m "chore: refresh contribution graphs [skip ci]"
           git push

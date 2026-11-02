@@ -18,9 +18,8 @@
   </tr>
 </table>
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg"><img src="assets/heatmap-light.svg" width="860" alt="Contribution heatmap for the last year"></picture></p>
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/skyline-dark.svg"><img src="assets/skyline-light.svg" width="860" alt="Skyline of the last year's contributions: each day is a building as tall as its commits"></picture></p>
-<p align="center"><sub>Portrait, card and heatmap are SVGs in this repo; the heatmap and card refresh daily via GitHub Actions.</sub></p>
+<p align="center"><sub>Portrait, card, skyline and glyph graph are SVGs in this repo; all but the portrait refresh daily via GitHub Actions.</sub></p>
 
 ---
 
@@ -205,13 +204,6 @@ CGPA: 8.5
 ---
 
 ## `$ git log --graph` Activity
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iprime2/iprime2/output/snake-dark.svg">
-    <img src="https://raw.githubusercontent.com/iprime2/iprime2/output/snake.svg" alt="Snake eating the contribution graph">
-  </picture>
-</p>
 
 <p align="center">
   <picture>
