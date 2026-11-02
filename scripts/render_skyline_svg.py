@@ -33,6 +33,26 @@ def mix(hex_color, target, amount):
     return "#%02x%02x%02x" % tuple(c)
 
 
+def streaks(days):
+    longest = run = 0
+    for d in days:
+        run = run + 1 if d["count"] > 0 else 0
+        longest = max(longest, run)
+    current = 0
+    for d in reversed(days):
+        if d["count"] > 0:
+            current += 1
+        elif current == 0 and d is days[-1]:
+            continue  # today may still be empty
+        else:
+            break
+    return current, longest
+
+
+def bar_height(count, biggest):
+    return max(3, round(HMAX * math.sqrt(count / biggest)))
+
+
 def render(days, user, theme):
     t = THEMES[theme]
     first = dt.date.fromisoformat(days[0]["date"])
@@ -44,7 +64,9 @@ def render(days, user, theme):
     total = sum(d["count"] for d in days)
     biggest = max(1, max(d["count"] for d in days))
     best = max(days, key=lambda d: d["count"])
-    stats = f"{total:,} contributions in the last year · tallest day {best['count']} ({best['date']})"
+    current, longest = streaks(days)
+    stats = (f"{total:,} contributions in the last year · tallest day {best['count']} ({best['date']})"
+             f" · current streak {current} d · longest streak {longest} d")
 
     cells, labels, last_month = {}, [], None
     for d in days:
@@ -61,6 +83,11 @@ def render(days, user, theme):
         if i == len(labels) - 1 or labels[i + 1][0] - col >= 3
     ]
 
+    tops = {}                                  # highest screen y any building reaches, per column
+    for (row, col), d in cells.items():
+        if d["count"] > 0:
+            tops[col] = min(tops.get(col, 10 ** 6), base + row * PY - bar_height(d["count"], biggest) - D)
+
     ground, boxes, lead = [], [], ""
     for row in range(7):                       # back (Sunday) to front (Saturday)
         for col in range(cols):
@@ -71,7 +98,7 @@ def render(days, user, theme):
             if d["count"] <= 0:                # an empty day is a flat tile on the ground
                 ground.append(f"M{x} {y}h{S}l{D} -{D}h-{S}z")
                 continue
-            h = max(3, round(HMAX * math.sqrt(d["count"] / biggest)))
+            h = bar_height(d["count"], biggest)
             lvl = min(4, max(1, d["level"]))
             delay = (6 - row) * 45 + col * 10  # the wave starts at the front left and sweeps back and right
             boxes.append(
@@ -80,13 +107,16 @@ def render(days, user, theme):
                 f'<path class="t{lvl}" d="M{x} {y - h}h{S}l{D} -{D}h-{S}z"/>'
                 f'<path class="s{lvl}" d="M{x + S} {y}l{D} -{D}v-{h}l-{D} {D}z"/></g>'
             )
-            if d is best:                      # a leader line from the tallest building to its label
+            if d is best:                      # a leader line from the tallest building up to its label
                 tx, ty = x + (S + D) // 2 + 2, y - h - D
-                ly = max(46, ty - 16)
                 end = tx > width - 190
                 anchor = ' text-anchor="end"' if end else ""
                 when = dt.date.fromisoformat(d["date"])
                 label = f'{d["count"]} contributions · {when.strftime("%b")} {when.day}'
+                span = len(label) * 6.7        # the label's width at 11px monospace
+                x0, x1 = (tx - 6 - span, tx) if end else (tx, tx + 6 + span)
+                reach = [tops[c] for c in range(max(0, int(x0 - LEFT) // PX), int(x1 - LEFT) // PX + 1) if c in tops]
+                ly = max(46, min(reach) - 14)  # clear of every building under the label, not just the tallest
                 lead = (f'<g class="lead"><path d="M{tx} {ty}V{ly}" stroke="{t["muted"]}" fill="none"/>'
                         f'<circle cx="{tx}" cy="{ly}" r="2" fill="{t["prompt"]}"/>'
                         f'<text x="{tx + (-6 if end else 6)}" y="{ly + 4}" class="st"{anchor}>{escape(label)}</text></g>')

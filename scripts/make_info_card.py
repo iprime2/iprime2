@@ -2,7 +2,7 @@
 """Neofetch-style info card SVGs that fade in line by line (assets/card-dark.svg, assets/card-light.svg).
 
 Facts are edited here by hand; the contribution count comes from data/contributions.json, so the
-daily workflow regenerates the card along with the heatmap.
+daily workflow regenerates the card along with the skyline and glyph graph.
 """
 import json
 import os
