@@ -75,6 +75,7 @@ Previously at **Codeinbound LLP** as a Full Stack Developer, building enterprise
 ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socketdotio&logoColor=white)
 ![Cap'n Proto](https://img.shields.io/badge/Cap'n_Proto-4B6EAF?style=flat-square&logoColor=white)
 ![Puppeteer](https://img.shields.io/badge/Puppeteer-40B5A4?style=flat-square&logo=puppeteer&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white)
 
 ### Databases
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
@@ -83,6 +84,7 @@ Previously at **Codeinbound LLP** as a Full Stack Developer, building enterprise
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white)
 
 ### Cloud & DevOps
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
@@ -134,15 +136,36 @@ Previously at **Codeinbound LLP** as a Full Stack Developer, building enterprise
 
 ## `$ ls ~/projects` Featured Projects
 
-### 🌍 Hourbridge
-> Timezone meeting planner built in one TypeScript codebase for the web, macOS, Windows, and iOS. Line up cities on a 24-hour grid, see working hours, nights, and public holidays, and pick a slot that is copied into a calendar invite. Time math is unit-tested, settings stay on the device, and the web app works offline.
+### 🧠 NexusRAG — Distributed Enterprise RAG Platform *(In Progress)*
+> Building a scalable, distributed RAG system using Python, FastAPI, Celery, Redis, PostgreSQL and Qdrant, supporting high-volume document ingestion, asynchronous processing, hybrid retrieval and context-aware AI responses. Focused on fault tolerance, horizontal scalability and production-grade observability.
 
-**Stack:** TypeScript
+**Stack:** Python · FastAPI · Celery · Redis · PostgreSQL · Qdrant
 
 ---
 
-### 🧰 Vibe setup
-> Repeatable Claude Code setup so a new machine or cloud session gets the same skills, rules, agents, and commands. An installer pins each source and checks it before install, optional packs add role-based review and domain skills, and product-specific changes are saved as a profile and replayed later, with regression tests around the installer.
+### 🤖 Autonomous AI Workflow Orchestrator
+> Developed an agent-based AI automation engine using LangGraph that decomposes high-level tasks into multi-step workflows with dynamic tool execution, memory and guardrails, automating backend operations and reducing manual intervention in production systems.
+
+**Stack:** Python · LangGraph · LangChain · FastAPI · Docker
+
+---
+
+### 🔧 AI Agent Infrastructure (MCP Framework)
+> Built a modular Model Context Protocol (MCP) framework enabling AI agents to securely inspect production databases, search technical documentation and analyze HTTP/WebSocket/UDP traffic with <0.1 ms overhead. Designed high-throughput async logging (~2,300 writes/sec) to support autonomous debugging across 5+ microservices in a low-latency production environment.
+
+**Stack:** Python · PostgreSQL · ChromaDB · SQLite · WebSocket · UDP · sentence-transformers
+
+---
+
+### 🧰 Vibe Setup (Claude Code Toolkit)
+> Building a repeatable Claude Code setup so any new machine or cloud session gets the same skills, rules, agents and commands. An installer pins and verifies each source before install, optional packs add role-based review and domain skills, and product-specific changes are saved as profiles and replayed later, with regression tests around the installer.
+
+---
+
+### 🌍 Hourbridge
+> Built a timezone meeting planner in one TypeScript codebase for web, macOS, Windows and iOS. Users line up cities on a 24-hour grid, see working hours, nights and public holidays, and pick a meeting slot that is copied into a calendar invite. Time math is unit-tested, settings stay on the device, and the web app works offline.
+
+**Stack:** TypeScript
 
 ---
 
@@ -150,20 +173,6 @@ Previously at **Codeinbound LLP** as a Full Stack Developer, building enterprise
 > Rust quoting bot for ADA on a crypto exchange, with a fair-value model, post-only quotes, inventory limits, and fill attribution. A shadow test of inside-spread quotes showed a positive per-fill result after fees.
 
 **Stack:** Rust
-
----
-
-### 🤖 Autonomous AI Workflow Orchestrator
-> LangGraph-based agent automation engine that decomposes high-level tasks into multi-step workflows with dynamic tool execution, memory, and guardrails
-
-**Stack:** Python · LangGraph · LangChain · FastAPI · Docker
-
----
-
-### 🔧 AI Agent Infrastructure (MCP Framework)
-> Modular MCP framework enabling AI agents to securely inspect production databases, search exchange documentation, and analyze HTTP/WebSocket/UDP traffic with <0.1ms overhead. Handles ~2,300 async writes/sec across 5+ microservices.
-
-**Stack:** Python · PostgreSQL · ChromaDB · SQLite · WebSocket · UDP · sentence-transformers
 
 ---
 
